@@ -130,7 +130,7 @@ cox_age_grp1 <- coxph(Surv(time, status) ~ age, data = D1)
 AIC(cox_age_grp)
 AIC(cox_age_grp1)
 #Using age as continuous variable
-
+#???
 
 #Weight
 skim(D1$weight)
